@@ -12,3 +12,27 @@ export interface WeatherData {
   windSpeed: number;
   windGust: number;
 }
+
+export interface WeatherPoint {
+  timestamp: Date;
+  value: number;
+}
+
+export interface MaxMin {
+  max: WeatherPoint;
+  min: WeatherPoint;
+}
+
+export interface WeatherDataMaxMin {
+  barometer: MaxMin;
+  dailyRain: MaxMin;
+  dewPoint: MaxMin;
+  humidity: MaxMin;
+  rain: MaxMin;
+  solarRadiation: MaxMin;
+  temperature: MaxMin;
+  uv: MaxMin;
+  windDirection: MaxMin;
+  windSpeed: MaxMin;
+  windGust: MaxMin;
+}

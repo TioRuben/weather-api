@@ -9,6 +9,8 @@ export interface EnvironmentVars {
   RATE_LIMIT_WINDOW_MINUTES: number;
   RATE_LIMIT_DELAY_SECONDS: number;
   STATION: string;
+  LATITUDE: number;
+  LONGITUDE: number;
 }
 
 export const defaults: EnvironmentVars = {
@@ -22,4 +24,6 @@ export const defaults: EnvironmentVars = {
   RATE_LIMIT_WINDOW_MINUTES: 1,
   RATE_LIMIT_DELAY_SECONDS: 2,
   STATION: "",
+  LATITUDE: 0,
+  LONGITUDE: 0,
 };

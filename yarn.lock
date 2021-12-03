@@ -1627,6 +1627,11 @@ array.prototype.flat@^1.2.5:
     define-properties "^1.1.3"
     es-abstract "^1.19.0"
 
+astronomy-engine@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/astronomy-engine/-/astronomy-engine-2.0.9.tgz#f6ecc287fc3a0cf4d3b77aa7e0a1adb7c18dcdf7"
+  integrity sha512-7Zzv5EeeralnFWQNc8RAstImptSWvz7IKsXE+0vmGuXzHvmjt8uxfqvD4m2BXL3lmz24NHdmm3Qmanaqw/PtEw==
+
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
