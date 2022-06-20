@@ -11,7 +11,9 @@ export const mapToLegacyWeather = (
 ): LegacyWeatherData => ({
   title: "Condiciones Actuales",
   location: "Torrevieja, Alicante (Spain)",
-  time: "03/12/21 18:50:00",
+  time: `${new Date().toLocaleDateString("es")} ${new Date().toLocaleTimeString(
+    "es"
+  )}`,
   lat: `${Services.Environment.getEnvVar("LATITUDE")}`,
   lon: `${Services.Environment.getEnvVar("LONGITUDE")}`,
   alt: "20 metros",
