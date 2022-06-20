@@ -13,7 +13,7 @@ export const mapToCurrentLegacy = (current: WeatherData): Current => ({
   heatIndex: `${calculateHeatIndex(
     current.temperature,
     current.humidity
-  )}&#176;C`,
+  ).toFixed(1)}&#176;C`,
   humidity: `${current.humidity}%`,
   insideHumidity: "N/A",
   insideTemp: "N/A",
